@@ -1,3 +1,17 @@
+** Description **
+This project contains functions that are used for basic operations to be performed on the memory like
+memmove, memzero and reverse.
+Apart from these functions, there are some data manipulation/ conversion functions like atoi, itoa, big
+to little endian and little to big endian conversion.
+All these functions will be tested and validated to run on the host machine and beagle bone.
+The code is written to be platform independent and will support both these architectures.
+We develop our own build system directly by using make and creating our own makefile to specify our
+compiler options, build operations, and source files. The first part of this project is to design a build
+system that is robust, extendable and full of useful software features. We strive to make our
+makefile as architecture independent as possible so that we can interchangeably use the native compiler
+or the cross compiler in addition to emulating our software on a host system vs. the target native system.
+
+
  ***************************************************************************************************
 	Date : 02/12/2017
 	ECEN 5013 Spring 2017
