@@ -1,9 +1,3 @@
-/*
-* rtc.c
- *
- *  Created on: Apr 11, 2017
- *      Author: sameer
- */
 
 #include "rtc.h"
 
